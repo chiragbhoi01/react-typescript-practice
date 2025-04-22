@@ -1,25 +1,28 @@
 // import Greeting from "./Greeting";
 
-import Practice from "./Practice";
+import TodoList from "./TodoList";
+
+// import Practice from "./Practice";
 
 function App() {
-  let name: string = "Chirag";
-  let age: number = 21;
+  // let name: string = "Chirag";
+  // let age: number = 21;
 
-  function chirag(a: number, b: number) {
-    console.log("Total:", a + b);
-  }
+  // function chirag(a: number, b: number) {
+  //   console.log("Total:", a + b);
+  // }
 
-  chirag(1, 8);
+  // chirag(1, 8);
 
-  let arrays: number[] = [1, 1, 2, 7, 4];
+  // let arrays: number[] = [1, 1, 2, 7, 4];
 
   return (
     <>
-      <h1 className="bg-blue-400 text-white p-2">{name}</h1>
+    <TodoList/>
+      {/* <h1 className="bg-blue-400 text-white p-2">{name}</h1>
       <h2>Age: {age}</h2>
       <h3>Numbers: {arrays.join(", ")}</h3>
-    <div className="flex justify-center items-center bg-red-100"><Practice/></div>
+    <div className="flex justify-center items-center bg-red-100"><Practice/></div> */}
       {/* <Greeting
         name="Chirag Bhoi"
         age={21}
