@@ -1,4 +1,6 @@
-import Greeting from "./Greeting";
+// import Greeting from "./Greeting";
+
+import Practice from "./Practice";
 
 function App() {
   let name: string = "Chirag";
@@ -17,13 +19,13 @@ function App() {
       <h1 className="bg-blue-400 text-white p-2">{name}</h1>
       <h2>Age: {age}</h2>
       <h3>Numbers: {arrays.join(", ")}</h3>
-
-      <Greeting
+    <div className="flex justify-center items-center bg-red-100"><Practice/></div>
+      {/* <Greeting
         name="Chirag Bhoi"
         age={21}
         hobbies={["Video Games", "Coding", "Badminton"]}
         address={{ city: "Udaipur", state: "Rajasthan", pincode: 313001 }}
-      />
+      /> */}
     </>
   );
 }
